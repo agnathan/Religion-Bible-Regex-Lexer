@@ -2578,7 +2578,7 @@ run {
 #--- string chomp
 #Jér 46 - 51
 #--- expect chomp
-#\\#Jér 46$-51$\\
+#\\#Jér 46-51\\
 
 # === 
 # --- string chomp
@@ -2730,7 +2730,7 @@ absents de 1 Pierre (\\#5:1\\; voir \\#5:2; Jn 21:16; 1P 5:5; Jn 13:3-5\\):
 --- string chomp
 (Ps 7 ; 35 ; 40 ; 55 ; 58 ; 59 ; 69 ; 79 ; 109 ; 137 ; 139 ; 144)
 --- expect chomp
-(\\#Ps 7$; 35$; 40$; 55$; 58$; 59$; 69$; 79$; 109$; 137$; 139$; 144$\\)
+(\\#Ps 7; 35; 40; 55; 58; 59; 69; 79; 109; 137; 139; 144\\)
 
 === (voir 2.12 ; 4.1 ; Ép 4.1, 17 ; Ph 1.27 ; Col 1.10)
 --- string chomp
@@ -2755,7 +2755,7 @@ voir \\#1Corinthiens 1:18-2:15\\
 --- string chomp
 Éz 20:33-44 ; 25 - 32
 --- expect chomp
-\\#Ez 20:33-44; 25$-32$\\
+\\#Ez 20:33-44; 25-32\\
 
 === parse 1Jn 2:12 et 1Jn 2:13
 --- string chomp
@@ -2768,7 +2768,7 @@ voir \\#1Corinthiens 1:18-2:15\\
 --- string chomp
 (voir Ge 6-8; De 28:15-68; Esa 1; 3; 5; 13-23; Jér 2-9; 46-51; Ez 20:33-44; 25-32; Joe 3:12-16; Za 12:2, 9; 14:2; Mal 3:2-6; Mt 12:36; 25:31-46; Lu 12:48; Ro 14:10-12; 1Co 3:12-15; 5:5; 2Co 5:10; Ga 6:7; Col 3:24, 25; Ap 6-20)
 --- expect chomp
-(voir \\#Ge 6$-8$; De 28:15-68; Esa 1$; 3$; 5$; 13$-23$; Jér 2$-9$; 46$-51$; Ez 20:33-44; 25$-32$; Joe 3:12-16; Za 12:2, 9; 14:2; Mal 3:2-6; Mt 12:36; 25:31-46; Lu 12:48; Ro 14:10-12; 1Co 3:12-15; 5:5; 2Co 5:10; Ga 6:7; Col 3:24, 25; Ap 6$-20$\\)
+(voir \\#Ge 6-8; De 28:15-68; Esa 1; 3; 5; 13-23; Jér 2-9; 46-51; Ez 20:33-44; 25-32; Joe 3:12-16; Za 12:2, 9; 14:2; Mal 3:2-6; Mt 12:36; 25:31-46; Lu 12:48; Ro 14:10-12; 1Co 3:12-15; 5:5; 2Co 5:10; Ga 6:7; Col 3:24, 25; Ap 6-20\\)
 
 === parse 2 Jn 5,6)
 --- string chomp
@@ -2780,7 +2780,7 @@ voir \\#1Corinthiens 1:18-2:15\\
 --- string chomp 
 Psaume 41:9 prédit qu'il allait être trahi par un ami intime, Psaume 22 donne les détails de sa crucifixion, Ésaïe 53 explique la signification théologique de sa mort et Psaume 16 prédit sa résurrection.
 --- expect chomp
-\\#Psaume 41:8\\ prédit qu'il allait être trahi par un ami intime, \\#Psaume 22$\\ donne les détails de sa crucifixion, \\#Esaïe 53$\\ explique la signification théologique de sa mort et \\#Psaume 16$\\ prédit sa résurrection.
+\\#Psaume 41:8\\ prédit qu'il allait être trahi par un ami intime, \\#Psaume 22\\ donne les détails de sa crucifixion, \\#Esaïe 53\\ explique la signification théologique de sa mort et \\#Psaume 16\\ prédit sa résurrection.
 
 
 === parse (voir mes remarques au sujet de 1 Jean 2.3-6 et de 5.2,3 dans les chapitres 5 et 16 du présent volume)
@@ -2793,7 +2793,7 @@ Psaume 41:9 prédit qu'il allait être trahi par un ami intime, Psaume 22 donne 
 --- string chomp 
 (Ab 14; És 2:10-21; 13:6-22; Joë 1 - 2; Am 5; Ab 15; So 1:7-18; Za 14; Ma 4)
 --- expect chomp
-(\\#Ab 1:14; Esa 2:10-21; 13:6-22; Joe 1$-2$; Am 5$; Ab 1:15; Sop 1:7-18; Za 14$; Mal 4$\\)
+(\\#Ab 1:14; Esa 2:10-21; 13:6-22; Joe 1-2; Am 5; Ab 1:15; Sop 1:7-18; Za 14; Mal 4\\)
 
 === parse (voir 3 Jn 9,10)
 --- string chomp 
@@ -2817,7 +2817,7 @@ Psaume 41:9 prédit qu'il allait être trahi par un ami intime, Psaume 22 donne 
 --- string chomp
 Jér 46 - 51
 --- expect chomp
-\\#Jér 46$-51$\\
+\\#Jér 46-51\\
 
 === parse (2 Pi 2.10; voir 2.18; 
 --- string chomp
@@ -2834,7 +2834,7 @@ Mt 1:1, 2
 --- string chomp
 Ge 1
 --- expect chomp
-\\#Ge 1$\\
+\\#Ge 1\\
 === parse LCVCV - Ge 1:1-2:5
 --- string chomp
 Ge 1:1-2:5
@@ -2844,17 +2844,17 @@ Ge 1:1-2:5
 --- string chomp
 Ge 1-2:5
 --- expect chomp 
-\\#Ge 1$-2:5\\
+\\#Ge 1-2:5\\
 === parse LCC - Ge 1-2
 --- string chomp
 Ge 1-2
 --- expect chomp
-\\#Ge 1$-2$\\
+\\#Ge 1-2\\
 === parse LC - Ge 1
 --- string chomp
 Ge 1
 --- expect chomp
-\\#Ge 1$\\
+\\#Ge 1\\
 === parse CVCV - 1:1-2:5
 --- string chomp
 voir 1:1-2:5

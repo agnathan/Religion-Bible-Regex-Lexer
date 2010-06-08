@@ -615,27 +615,27 @@ Mt 1:1, 2
 --- reference chomp
 Ge 1-Ex 2:5, Ge 1-Ex 2:5
 --- expect chomp 
-\\#Ge 1$-Ex 2:5; Ge 1$-Ex 2:5\\
+\\#Ge 1-Ex 2:5; Ge 1-Ex 2:5\\
 === parse LCLCV - Ge 1-Ex 2:5
 --- reference chomp
 Ge 1-Ex 2:5
 --- expect chomp 
-\\#Ge 1$-Ex 2:5\\
+\\#Ge 1-Ex 2:5\\
 === parse LCLCV - Ge 1-Ex 2:5, Ge 1-Ex 2:5
 --- reference chomp
 Ge 1-Ex 2:5,Ge 1-Ex 2:5
 --- expect chomp 
-\\#Ge 1$-Ex 2:5; Ge 1$-Ex 2:5\\
+\\#Ge 1-Ex 2:5; Ge 1-Ex 2:5\\
 === parse LCLC - Ge 1-Ex 2
 --- reference chomp
 Ge 1-Ex 2
 --- expect chomp
-\\#Ge 1$-Ex 2$\\
+\\#Ge 1-Ex 2\\
 === parse LC - Ge 1
 --- reference chomp
 Ge 1
 --- expect chomp
-\\#Ge 1$\\
+\\#Ge 1\\
 === parse LCVCV - Ge 1:1-2:5
 --- reference chomp
 Ge 1:1-2:5
@@ -645,17 +645,17 @@ Ge 1:1-2:5
 --- reference chomp
 Ge 1-2:5
 --- expect chomp 
-\\#Ge 1$-2:5\\
+\\#Ge 1-2:5\\
 === parse LCC - Ge 1-2
 --- reference chomp
 Ge 1-2
 --- expect chomp
-\\#Ge 1$-2$\\
+\\#Ge 1-2\\
 === parse LC - Ge 1
 --- reference chomp
 Ge 1
 --- expect chomp
-\\#Ge 1$\\
+\\#Ge 1\\
 === parse CVCV - 1:1-2:5
 --- reference chomp
 voir 1:1-2:5
