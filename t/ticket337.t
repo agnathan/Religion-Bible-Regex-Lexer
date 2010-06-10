@@ -3,7 +3,7 @@ use t::TestConfig;
 use Data::Dumper;
 no warnings;
 
-plan tests => 18;
+plan tests => 3;
     
 my $yaml = <<"YAML";
 books:

@@ -6,7 +6,7 @@ binmode(STDERR, ":utf8");
 use Data::Dumper;
 no warnings;
 
-plan tests => 53;
+plan tests => 52;
     
 my $yaml = <<"YAML";
 books:
